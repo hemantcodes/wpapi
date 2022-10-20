@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wppconnect-server
+    env: node
+    plan: free
+    buildCommand: yarn install --production --pure-lockfile && \yarn build
+    startCommand: node start
+    envVars:
+      - key: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD
+        value: true
