@@ -1,13 +1,13 @@
 {
-  "secretKey": "THISISMYSECURETOKEN",
-  "host": "http://localhost",
-  "port": "21465",
+  "secretKey": "NEXTLEAP_ADMIN",
+  "host": "https://wpapi.vercel.app",
+  "port": "80",
   "deviceName": "WppConnect",
   "poweredBy": "WPPConnect-Server",
   "startAllSession": true,
   "tokenStoreType": "file",
   "maxListeners": 15,
-  "customUserDataDir": "./userDataDir/",
+  "customUserDataDir": "./userdatadir/",
   "webhook": {
     "url": null,
     "autoDownload": true,
