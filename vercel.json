@@ -3,5 +3,6 @@
    "name": "wppconnect-server",
    "builds": [
       { "src": "./dist/server.js", "use": "@vercel/node" }
-   ]
+   ],
+   "buildCommand": "yarn build"
 }
