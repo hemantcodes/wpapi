@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:21465/api/{session}",
+      "url": "https://wpapi.vercel.app/api/{session}",
       "variables": {
         "session": {
           "default": "NEXTLEAP",
@@ -31,7 +31,7 @@
             "style": "simple",
             "schema": {
               "type": "string",
-              "example": "THISISMYSECURETOKEN"
+              "example": "NEXTLEAP"
             }
           }
         ],
