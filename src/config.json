@@ -1,7 +1,7 @@
 {
   "secretKey": "NEXTLEAP_ADMIN",
   "host": "wpapi.vercel.app",
-  "port": "443",
+  "port": "8080",
   "deviceName": "WppConnect",
   "poweredBy": "WPPConnect-Server",
   "startAllSession": true,
